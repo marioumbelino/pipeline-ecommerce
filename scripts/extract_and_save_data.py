@@ -43,7 +43,7 @@ def insert_data(column, data):
     else:
         raise Exception('Sorry, looks like the data is empty')
 
-if __name__ is '__main__':
+if __name__ == '__main__':
     # access mongo uri
     with open('data_base_key.txt', 'r') as file:
         file_content = file.read()
