@@ -1,3 +1,4 @@
-venv
+venv 
 data_base_key.txt
+mysql_user.txt
 __pycache__
