@@ -41,7 +41,7 @@ def format_date(df, column_name, date_format, new_format):
         print(e)
 
 def save_csv(df, path):
-    df.to_csv(path)
+    df.to_csv(path, index=False)
     print('The file has been saved successfully')
     
 if __name__ == '__main__':
